@@ -89,8 +89,8 @@ public class BillCreator {
         stringBuffer.append("|  ").append("name");
 
 
-        stringBuffer.append("| name  |---------| price for 1 |----------| amount |--------| final price  |\n");
-        stringBuffer.append("|  ").append(i.getName()).append("  |").append(i.getPrice()).append("  |").append(amount).append("  |").append(price).append("  |\n");
+        stringBuffer.append("|name|price for 1|amount|final price|\n");
+        stringBuffer.append("| ").append(i.getName()).append("|").append(i.getPrice()).append(" |").append(amount).append(" |").append(price).append(" |\n");
 
         return stringBuffer.toString();
     }
