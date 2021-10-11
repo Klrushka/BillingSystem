@@ -2,9 +2,9 @@ package models;
 
 public class Item {
     private String name;
-    private double price;
+    private float price;
 
-    public Item(String name, double price) {
+    public Item(String name, float price) {
         this.name = name;
         this.price = price;
     }
@@ -17,11 +17,11 @@ public class Item {
         this.name = name;
     }
 
-    public double getPrice() {
+    public float getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 }
