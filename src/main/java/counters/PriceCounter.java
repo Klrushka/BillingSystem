@@ -8,9 +8,4 @@ public class PriceCounter {
         return item.getPrice() * amount;
     }
 
-
-
-
-
-
 }
